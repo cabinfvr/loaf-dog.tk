@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+	    <title>
+	        Loaf Dog
+	    </title>
+	    <style>
+	        @import url('https://lixiumcss.reshno.repl.co/lixium.css')
+	    </style>
+	</HEAD>
+	<BODY>
+		<h1 class="not-bold">
+		    Loaf Dog.
+		</h1>
+		<img width='500'>
+		<script>
+		    var imageUrls = [
+		            'https://d.newsweek.com/en/full/1907547/shiba-inu.jpg?w=1600&h=1600&q=88&f=7a2586802b4ee88ee530b93465e1764c',
+		            'https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iOrdk7bDy58Y/v0/-1x-1.jpg',
+		            'https://g.foolcdn.com/editorial/images/669828/shiba-inu-dog-doge-dogecoin.jpeg',
+		            'https://hips.hearstapps.com/wdy.h-cdn.co/assets/17/39/1506709524-cola-0247.jpg?crop=1.00xw:0.750xh;0,0.214xh&resize=1200:*',
+		            'https://www.labrottie.com/wp-content/uploads/2020/05/Cute-dog-names-Labrottie.com_-3-scaled-1.jpg',
+		            'https://vcahospitals.com/-/media/2/VCA/Images/LifeLearn-Images-Foldered/10813/french_bulldog_4713013_480scaler.ashx',
+		            'https://www.gannett-cdn.com/presto/2020/03/17/USAT/c0eff9ec-e0e4-42db-b308-f748933229ee-XXX_ThinkstockPhotos-200460053-001.jpg?crop=1170%2C658%2Cx292%2Cy120&width=1200',
+		            'https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d',
+		            'https://post.healthline.com/wp-content/uploads/2020/08/3180-Pug_green_grass-732x549-thumbnail-732x549.jpg',
+		            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzAM__9nH4T5Y8YZ5_irLBSaAUx3NVl5tLkw&usqp=CAU',
+		            'https://www.akc.org/wp-content/themes/akc/component-library/assets/img/welcome.jpg',
+		            'https://images.unsplash.com/photo-1617895153857-82fe79adfcd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2liZXJpYW4lMjBodXNreXxlbnwwfHwwfHw%3D&w=1000&q=80',
+		            'https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/siberian-husky-card-small.jpg?bust=1535567860'
+		        ]
+		        function get_random (list) {
+                    return list[Math.floor((Math.random()*list.length))];
+                }
+		        
+		        imageUrl = get_random(imageUrls)
+		        
+		        const image = document.querySelector('img');
+		        image.src = imageUrl;
+		</script>
+		<style>
+		    h1 {
+		        background:black;
+		        background-size:cover;
+		        color:white;
+		    }
+		    .auto            { cursor: auto; }
+.default         { cursor: default; }
+.none            { cursor: none; }
+.context-menu    { cursor: context-menu; }
+.help            { cursor: help; }
+.pointer         { cursor: pointer; }
+.progress        { cursor: progress; }
+.wait            { cursor: wait; }
+.cell            { cursor: cell; }
+.crosshair       { cursor: crosshair; }
+.text            { cursor: text; }
+.vertical-text   { cursor: vertical-text; }
+.alias           { cursor: alias; }
+.copy            { cursor: copy; }
+.move            { cursor: move; }
+.no-drop         { cursor: no-drop; }
+.not-allowed     { cursor: not-allowed; }
+.all-scroll      { cursor: all-scroll; }
+.col-resize      { cursor: col-resize; }
+.row-resize      { cursor: row-resize; }
+.n-resize        { cursor: n-resize; }
+.e-resize        { cursor: e-resize; }
+.s-resize        { cursor: s-resize; }
+.w-resize        { cursor: w-resize; }
+.ns-resize       { cursor: ns-resize; }
+.ew-resize       { cursor: ew-resize; }
+.ne-resize       { cursor: ne-resize; }
+.nw-resize       { cursor: nw-resize; }
+.se-resize       { cursor: se-resize; }
+.sw-resize       { cursor: sw-resize; }
+.nesw-resize     { cursor: nesw-resize; }
+.nwse-resize     { cursor: nwse-resize; }
+		</style>
+	</BODY>
+</HTML>
